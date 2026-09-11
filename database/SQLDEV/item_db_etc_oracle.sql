@@ -1,5 +1,12 @@
 TRUNCATE TABLE item_db_etc;
 
+CREATE TABLE item_db_etc (
+  id NUMBER PRIMARY KEY,
+  name_aegis VARCHAR2(100),
+  name_english VARCHAR2(100),
+  "TYPE" VARCHAR2(50)
+);
+
 INSERT INTO item_db_etc (id, name_aegis, name_english, "TYPE") VALUES (670, 'Gold_Coin_Moneybag', 'Bag of Gold Coins', 'Etc');
 INSERT INTO item_db_etc (id, name_aegis, name_english, "TYPE") VALUES (672, 'Copper_Coin_Moneybag', 'Bag of Bronze Coins', 'Etc');
 INSERT INTO item_db_etc (id, name_aegis, name_english, "TYPE") VALUES (674, 'Mithril_Coin', 'Mithril Coin', 'Etc');
