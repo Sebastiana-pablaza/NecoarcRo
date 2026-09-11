@@ -1,4 +1,10 @@
-
+CREATE TABLE skill (
+  char_id NUMBER(11) DEFAULT 0,
+  id NUMBER(11) DEFAULT 0,
+  lv NUMBER(4) DEFAULT 0,
+  flag NUMBER(1) DEFAULT 0,
+  PRIMARY KEY (char_id, id)
+);
 
 INSERT INTO skill VALUES (150000,1,9,0);
 INSERT INTO skill VALUES (150002,1,9,0);
