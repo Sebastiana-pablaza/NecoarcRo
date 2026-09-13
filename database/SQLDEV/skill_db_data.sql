@@ -1,3 +1,8 @@
+CREATE TABLE skill_db_data (
+    skill_id NUMBER PRIMARY KEY,
+    skill_name VARCHAR2(100)
+);
+
 INSERT INTO skill_db_data (skill_id, skill_name) VALUES (1, 'NV_BASIC');
 INSERT INTO skill_db_data (skill_id, skill_name) VALUES (2, 'SM_SWORD');
 INSERT INTO skill_db_data (skill_id, skill_name) VALUES (3, 'SM_TWOHAND');
